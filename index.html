@@ -1,0 +1,50 @@
+<div  class="container-fluid text-center">
+	<div class="row">
+		<div class="col-xs-1 text-center"></div>
+		<div class="col-xs-3 text-center">
+			<button id="resetButton" onclick="gameReset()" type="button" class="centerSpecial btn btn-danger btn-lg">Reset</button>
+		</div>
+		<div  class="col-xs-1 text-center"></div>
+		<div id="topLeftSquare" class="square col-xs-1 text-center"></div>
+		<div id="topMiddleSquare" class="square col-xs-1 text-center"></div>
+		<div id="topRightSquare" class="square col-xs-1 text-center"></div>		
+		<div class="col-xs-1 text-center"></div>
+		<div class="col-xs-3 text-center">
+			<span id="current"><strong class="bg-info">Waiting on Player 1</strong></span>
+			<span><br/>Last Result: </span><span id="last"class="bg-warning" >No Winner</span>
+			
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-xs-1 text-center"></div>
+		<div class="col-xs-3 text-center">
+			<button id="versusButton" onclick="versusToggle()" type="button" class="centerSpecial btn btn-primary btn-lg">Human vs Computer</button>
+		</div>
+		<div  class="col-xs-1 text-center"></div>
+		<div id="midLeftSquare" class="square col-xs-1 text-center"></div>
+		<div id="midMiddleSquare" class="square col-xs-1 text-center"></div>
+		<div id="midRightSquare" class="square col-xs-1 text-center"></div>		
+		<div class="col-xs-1 text-center"></div>
+		<div class="col-xs-3 text-center">
+			<span id="player1ID" class="bg-info">Player 1</span><span> <br/></span><span id="player1Record"> 0-0-0</span>
+		</div>		
+	</div>
+	<div class="row">
+		<div class="col-xs-1 text-center"></div>
+		<div class="col-xs-3 text-center">
+			<button id="symbolButton" onclick="symbolToggle()" type="button" class="centerSpecial btn btn-success btn-lg">Player 1 is X</button>
+		</div>
+		<div  class="col-xs-1 text-center"></div>
+		<div id="bottomLeftSquare" class="square col-xs-1 text-center"></div>
+		<div id="bottomMiddleSquare" class="square col-xs-1 text-center"></div>
+		<div id="bottomRightSquare" class="square col-xs-1 text-center"></div>		
+		<div class="col-xs-1 text-center"></div>
+		<div class="col-xs-3 text-center">
+			<span id="player2ID" class="bg-danger">Computer</span><span><br/></span><span id="player2Record"> 0-0-0</span>
+		</div>		
+	</div>	
+</div>
+
+<footer>
+  <p class="small text-center">Coded by Matthew Relph</p>
+</footer>	

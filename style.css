@@ -1,0 +1,78 @@
+body {
+  background-color: GhostWhite;
+  margin-top: 15px;
+  font-family: "Courier", "monospace";
+  color: Black;
+  min-width: 900px;
+
+}
+
+footer {
+  margin-top: 65px;
+  background-color: Black;
+  color: White;
+  height: 50px;
+  width: 100%;
+}
+
+.square{
+	min-width: 100px;
+	min-height: 100px;
+	font-size: 50px;
+	/*width: 100%;
+	height: 100%;*/
+}
+
+.centerSpecial{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#topLeftSquare
+{
+	border-right: 6px solid DarkCyan;
+	border-bottom: 6px solid DarkCyan;
+}
+
+#topMiddleSquare
+{
+	border-bottom: 6px solid DarkCyan;
+}
+
+#topRightSquare
+{
+	border-left: 6px solid DarkCyan;
+	border-bottom: 6px solid DarkCyan;	
+}
+
+#midLeftSquare
+{
+	border-right: 6px solid DarkCyan;
+	border-bottom: 6px solid DarkCyan;
+}
+
+#midMiddleSquare
+{
+	border-bottom: 6px solid DarkCyan;
+}
+
+#midRightSquare
+{
+	border-left: 6px solid DarkCyan;
+	border-bottom: 6px solid DarkCyan;	
+}
+
+#bottomLeftSquare
+{
+	border-right: 6px solid DarkCyan;
+}
+
+#bottomMiddleSquare
+{
+}
+
+#bottomRightSquare
+{
+	border-left: 6px solid DarkCyan;
+
+}
